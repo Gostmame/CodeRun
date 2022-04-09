@@ -15,28 +15,46 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
   <link rel="stylesheet" href="css.css" />
   <title>CodeRun - IT Competition</title>
+  <style>
+    /* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .mapSize iframe {
+    width: 100%;
+  }
+
+  .imgWidth {
+    width: 50%;
+  }
+  .mynav {
+    border-left: 1px solid white;
+  }
+  .mynavr{
+    border-right: 1px solid white;
+  }
+}
+  </style>
 </head>
 
 <body>
   <nav class="navbar border border-light p-0 navbar-expand-lg navbar-dark bg-light">
     <div class="container-fluid justify-content-center" style="background-color: #103258">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-center navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="mynav px-5 py-2" aria-current="page" href="index.html">CodeRun</a>
-          <a class="mynav px-5 py-2" href="schedule.html">Schedule</a>
-          <a class="mynav px-5 py-2" href="partners.html">Partners</a>
-          <a class="mynav px-5 py-2" href="https://bestcj.ro/">BEST</a>
-          <a class="mynav px-5 py-2" href="coreteam.html">Contact</a>
-          <a class="mynav px-3 py-2" style="border-right: 1px solid white"
-            href="https://bestcj.ro/2-percent-program/">2% Program</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="mynav px-5 py-2" aria-current="page" href="index.html">CodeRun</a>
+                <a class="mynav px-5 py-2"  href="schedule.html">Schedule</a>
+                <a class="mynav px-5 py-2" href="partners.html">Partners</a>
+                <a class="mynav px-5 py-2" href="https://bestcj.ro/">BEST</a>
+                <a class="mynav px-5 py-2" href="coreteam.html">Contact</a>
+                <a class="mynav mynavr px-3 py-2" 
+                    href="https://bestcj.ro/2-percent-program/">2% Program</a>
+            </div>
         </div>
-      </div>
     </div>
-  </nav>
+</nav>
   <div class="container-fluid py-5 subNavContainer">
     <!-- <img src="materials/subNav1.jpg" class="subNav" alt="" > -->
     <div class="container">

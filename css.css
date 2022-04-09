@@ -9,9 +9,6 @@ p {
   text-align: justify;
 }
 
-.mynav {
-  border-left: 1px solid white;
-}
 
 mynav,
 a {
@@ -19,7 +16,9 @@ a {
   text-decoration: none;
   font-size: x-large;
 }
-
+.mynav:hover{
+  color: rgb(110, 151, 195);
+}
 footer a {
   font-size: initial;
 }
@@ -116,6 +115,12 @@ a:hover {
 
   .imgWidth {
     width: 50%;
+  }
+  .mynav {
+    border-left: 1px solid white;
+  }
+  .mynavr{
+    border-right: 1px solid white;
   }
 }
 
