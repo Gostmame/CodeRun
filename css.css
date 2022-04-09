@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-weight: lighter;
+  text-align: justify;
+}
+
+.mynav {
+  border-left: 1px solid white;
+}
+
+mynav,
+a {
+  color: white;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+footer a {
+  font-size: initial;
+}
+
+.subNavContainer {
+  background: url("materials/subNav1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.coverContainer {
+  background: url("materials/coverSexi.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.firstDivSubNav {
+  background-color: rgba(255, 255, 255, 0.315);
+}
+
+.pressMe {
+  border: 1px solid white;
+  background-color: #103258;
+}
+
+.button_slide {
+  color: #fff;
+
+  padding: 18px 36px;
+  display: inline-block;
+
+  letter-spacing: 1px;
+  cursor: pointer;
+  -webkit-transition: ease-out 0.6s;
+  -moz-transition: ease-out 0.46s;
+  transition: ease-out 0.6s;
+}
+
+.slide_right:hover {
+  box-shadow: inset 400px 0 0 0 blue;
+}
+
+.pressMe,
+a:hover {
+  color: white;
+}
+
+.footContainer {
+  background: url("materials/footerCover.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.footLogos {
+  height: 30px;
+}
+
+.lighter {
+  font-weight: 700;
+  font-size: larger;
+  color: white;
+}
+
+.mapSize iframe {
+  width: 100%;
+}
+
+.imgWidth {
+  width: 85%;
+}
+
+@media (min-width: 576px) {
+  .mapSize iframe {
+    width: 100%;
+  }
+
+  .imgWidth {
+    width: 85%;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .mapSize iframe {
+    width: 100%;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .mapSize iframe {
+    width: 100%;
+  }
+
+  .imgWidth {
+    width: 50%;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .mapSize iframe {
+    width: 100%;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .mapSize iframe {
+    width: 100%;
+  }
+}
