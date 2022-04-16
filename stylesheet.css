@@ -10,3 +10,46 @@
     font-style: normal;
 
 }
+#home{
+    width: 100%;
+   
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#heading-sale{
+    font-size: 4vw;
+    margin-bottom: 5vh;
+
+}
+#time{
+    display: flex;
+    color: gray;
+    font-size: 4vh;
+    width: 55vw;
+    justify-content: space-around;
+}
+#clock{
+    display: flex;
+    color: white;
+    font-size: 7vw;
+   
+    font-family: 'Courier New', Courier, monospace;
+    height: 19vh;
+    line-height: 22vh;
+    overflow: hidden;
+    position: relative;
+}
+.move{
+    animation: move ease-in-out 1s infinite;
+}
+ @keyframes move{
+     from{
+         transform: translateY(0);
+     }
+     to{
+         transform: translateY(-25vh);
+     }
+ }
